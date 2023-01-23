@@ -17,6 +17,5 @@ távoli repo összekapcsolása (PTA):
 
 - git push 
 
-valami
-valami
-valami
+Klónozás:
+- git clone url
