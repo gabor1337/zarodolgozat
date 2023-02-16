@@ -1,0 +1,22 @@
+let board = [];
+
+    for(let j = VerticalAxis.length-1; j>=0; j--){
+        for(let i = 0; i<HorizontalAxis.length; i++){
+            const number = j + i + 2;
+
+            if(number % 2 == 0){
+                board.push(
+                    <div className='tile black-tile' black={black}>
+                        {piece && <Piece piece={piece}/>}
+                    </div>
+                )
+            }   
+            else{
+                board.push(
+                    <div className='tile white-tile' black={black}>
+                         {piece && <Piece piece={piece}/>}
+                    </div>
+                )
+            }
+
+        }

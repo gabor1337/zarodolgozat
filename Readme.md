@@ -1,4 +1,4 @@
-# Záródolgozat
+    # Záródolgozat
 
 ## Sakk izé
 

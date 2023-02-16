@@ -1,0 +1,7 @@
+#app{
+  display: grid;
+  place-content: center;
+  min-width: 320px;
+
+  background-color: cadetblue;
+}
