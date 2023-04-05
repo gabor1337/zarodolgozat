@@ -6,7 +6,7 @@ import Piece from './Pieces/Piece'
 import Promote from './Promote'
 
 import Square from './Squera'
-export default function BoardSquare({
+export default function BoardSquera({
   piece,
   black,
   position,
@@ -15,7 +15,9 @@ export default function BoardSquare({
   const [, drop] = useDrop({
     accept: 'piece',
     drop: (item) => {
-      const [fromPosition] = item.id?.split('_')
+      const [fromPosition] = item.item?.split('_')
+      console.log(fromPosition)
+      console.log(position)
       handleMove(fromPosition, position)
     },
   })
