@@ -59,7 +59,7 @@ export default function Home() {
                         <footer className="card-footer">
                             {newGameOptions.map(({ label, value }) => (
                                 <span className="card-footer-item pointer" key={value}
-                                    onClick={() => startOnlineGame(value)}>
+                                       onClick={() => startOnlineGame(value)}>
                                     {label}
                                 </span>
                             ))}

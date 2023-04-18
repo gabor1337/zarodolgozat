@@ -1,6 +1,6 @@
     # Záródolgozat
 
-## Sakk izé
+## Sakk
 
 Verziókezelés:
 

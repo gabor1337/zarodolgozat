@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { auth } from './components/firebase'
 import Home from './components/Home'
-import UserForm from './components/UseForm'
+import UserForm from './components/UserForm'
 import GameApp from './components/GameApp'
 
 export default function App() {
